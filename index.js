@@ -6,5 +6,6 @@ module.exports = {
     request: require('./lib/request'),
     routing: require('./lib/routing'),
     service: require('./lib/service'),
-    using: require('./lib/using')
+    using: require('./lib/using'),
+    middlewares: requrie('./lib/middlewares');
 }
