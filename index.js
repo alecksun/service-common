@@ -7,5 +7,6 @@ module.exports = {
     routing: require('./lib/routing'),
     service: require('./lib/service'),
     using: require('./lib/using'),
+    serviceError: require('./lib/serviceError')
     middlewares: require('./lib/middlewares')
 }
